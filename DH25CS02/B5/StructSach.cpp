@@ -43,7 +43,8 @@ void xuat1Sach(Sach s) {
 }
 
 double tinhThanhTien(Sach s) {
-	return s.giaBan * s.giamGia;
+	//Cap nhat cong thuc tinh
+	return s.giaBan - (s.giaBan * s.giamGia/100.0);
 }
 
 //Yeu cau 2
